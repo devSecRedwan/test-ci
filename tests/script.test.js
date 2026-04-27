@@ -1,4 +1,4 @@
-const { add, subtract, multiply, divide } = require("../src/script");
+const { add, subtract, multiply } = require("../src/script");
 
 test("adds two numbers", () => {
   expect(add(2, 3)).toBe(5);
