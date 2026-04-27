@@ -1,13 +1,19 @@
-# Simple Calculator
-This is a simple calcultor made by HTML, CSS and JS only.
+## Clone this repository in your local machine
 
-### Prerequisites
-- node
-- npm
+### Install & Run Tests Locally 
+	npm init -y
+	npm test
+### Output
+	
+ PASS  tests/calculator.test.js
+  ✓ adds two numbers (1 ms)
+  ✓ subtracts two numbers (1 ms)
+  ✓ multiplies two numbers
 
-### Steps of running this apps
-- clone this repository using git clone
-- run npm install
-- Go live server in vs code
+Test Suites: 1 passed, 1 total
+Tests:       3 passed, 3 total
+Snapshots:   0 total
+Time:        0.272 s
+Ran all test suites.
 
-and use it.
+#### CI: Tests automatically run on every push using GitHub Actions.
