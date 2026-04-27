@@ -16,3 +16,5 @@ function calculateResult() {
     display.value = "Error";
   }
 }
+
+console.log("Hello, world from calc");
